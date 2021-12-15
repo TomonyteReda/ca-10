@@ -3,10 +3,11 @@
 from flask import Flask, g, request
 import sqlite3
 
+
 app = Flask(__name__)
 
 
-DATABASE = 'mydb.db'
+DATABASE = 'newdatabase.db'
 
 
 def get_db():
